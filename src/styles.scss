@@ -31,6 +31,15 @@ body {
   }
 }
 
+td,
+th {
+  text-align: center;
+}
+
+th {
+  color: #fdcd01;
+}
+
 .code {
   font-family: "Space Mono", monospace !important;
   padding: 2.5rem;

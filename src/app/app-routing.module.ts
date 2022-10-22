@@ -1,3 +1,5 @@
+import { CommitteesComponent } from './pages/committees/committees.component';
+import { VenueComponent } from './pages/venue/venue.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { PaperSubmissionComponent } from './pages/paper-submission/paper-submission.component';
 import { CallForPaperComponent } from './pages/call-for-paper/call-for-paper.component';
@@ -12,6 +14,8 @@ const routes: Routes = [
   { path: 'call-for-paper', component: CallForPaperComponent },
   { path: 'paper-submission', component: PaperSubmissionComponent },
   { path: 'registration', component: RegistrationComponent },
+  { path: 'venue', component: VenueComponent },
+  { path: 'committees', component: CommitteesComponent },
 ];
 
 @NgModule({
