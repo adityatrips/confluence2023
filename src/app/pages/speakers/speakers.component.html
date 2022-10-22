@@ -1,0 +1,16 @@
+<div class="speakers">
+  <h3 class="tac">
+    Past Conference <span class="bold yellow">Distinguished</span> Speakers /
+    Guests
+  </h3>
+  <br />
+  <div class="ph-5">
+    <div class="row" *ngFor="let row of images">
+      <div class="two columns" *ngFor="let img of row">
+        <img class="speaker-img" [src]="img.img" />
+        <p class="tac yellow bold m0">{{ img.name }}</p>
+        <p class="tac bold m0">{{ img.uni }}</p>
+      </div>
+    </div>
+  </div>
+</div>

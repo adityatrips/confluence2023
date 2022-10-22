@@ -1,10 +1,21 @@
+import { RegistrationComponent } from './pages/registration/registration.component';
+import { PaperSubmissionComponent } from './pages/paper-submission/paper-submission.component';
+import { CallForPaperComponent } from './pages/call-for-paper/call-for-paper.component';
+import { SpeakersComponent } from './pages/speakers/speakers.component';
+import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'speakers', component: SpeakersComponent },
+  { path: 'call-for-paper', component: CallForPaperComponent },
+  { path: 'paper-submission', component: PaperSubmissionComponent },
+  { path: 'registration', component: RegistrationComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

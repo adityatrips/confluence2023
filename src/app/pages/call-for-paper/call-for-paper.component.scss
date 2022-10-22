@@ -1,0 +1,14 @@
+.call-for-paper {
+  padding: 0 5rem;
+  padding-top: 15rem;
+}
+a {
+  color: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #fdcd01;
+  }
+}
