@@ -1,35 +1,42 @@
 <div class="navbar" id="navbar">
   <ul class="navbar-links">
     <li routerLink="/" class="nav-link tac">
-      <a href="#">Home</a>
+      <a>Home</a>
     </li>
     <li routerLink="/speakers" class="nav-link tac">
-      <a href="#">Speakers</a>
+      <a>Speakers</a>
     </li>
     <li routerLink="/call-for-paper" class="nav-link tac">
-      <a href="#">Call for Papers</a>
+      <a>Call for Papers</a>
     </li>
     <li routerLink="/paper-submission" class="nav-link tac">
-      <a href="#">Paper Submission</a>
+      <a>Paper Submission</a>
     </li>
     <li routerLink="/registration" class="nav-link tac">
-      <a href="#">Registration</a>
+      <a>Registration</a>
     </li>
     <li class="nav-link tac date"><h5>2023</h5></li>
     <li routerLink="/venue" class="nav-link tac">
-      <a href="#">Venue</a>
+      <a>Venue</a>
     </li>
     <li routerLink="/committees" class="nav-link tac">
-      <a href="#">Committees</a>
+      <a>Committees</a>
     </li>
-    <li class="nav-link tac">
-      <a href="#">Sponsorship</a>
+    <li routerLink="/sponsorship" class="nav-link tac">
+      <a>Sponsorship</a>
     </li>
-    <li class="nav-link tac">
-      <a href="#">Gallery</a>
+    <li
+      (click)="
+        nav(
+          'https://onedrive.live.com/?cid=008e92141623e2c0&id=8E92141623E2C0%21598&ithint=album&authkey=%21AHG7Ene158FBlUE&v=photos'
+        )
+      "
+      class="nav-link tac"
+    >
+      <a>Gallery</a>
     </li>
-    <li class="nav-link tac">
-      <a href="#">Contact Us</a>
+    <li routerLink="/contact-us" class="nav-link tac">
+      <a>Contact Us</a>
     </li>
   </ul>
 </div>
@@ -41,34 +48,41 @@
   <div class="dropdown" id="dropdown">
     <ul class="dropdown-navbar-links">
       <li routerLink="/" class="nav-link tac">
-        <a href="#">Home</a>
+        <a>Home</a>
       </li>
       <li routerLink="/speakers" class="nav-link tac">
-        <a href="#">Speakers</a>
+        <a>Speakers</a>
       </li>
       <li routerLink="/call-for-paper" class="nav-link tac">
-        <a href="#">Call for Papers</a>
+        <a>Call for Papers</a>
       </li>
       <li routerLink="/paper-submission" class="nav-link tac">
-        <a href="#">Paper Submission</a>
+        <a>Paper Submission</a>
       </li>
       <li routerLink="/registration" class="nav-link tac">
-        <a href="#">Registration</a>
+        <a>Registration</a>
       </li>
       <li routerLink="/venue" class="nav-link tac">
-        <a href="#">Venue</a>
+        <a>Venue</a>
       </li>
       <li routerLink="/committees" class="nav-link tac">
-        <a href="#">Committees</a>
+        <a>Committees</a>
       </li>
-      <li class="nav-link tac">
-        <a href="#">Sponsorship</a>
+      <li routerLink="/sponsorship" class="nav-link tac">
+        <a>Sponsorship</a>
       </li>
-      <li class="nav-link tac">
-        <a href="#">Gallery</a>
+      <li
+        (click)="
+          nav(
+            'https://onedrive.live.com/?cid=008e92141623e2c0&id=8E92141623E2C0%21598&ithint=album&authkey=%21AHG7Ene158FBlUE&v=photos'
+          )
+        "
+        class="nav-link tac"
+      >
+        <a>Gallery</a>
       </li>
-      <li class="nav-link tac">
-        <a href="#">Contact Us</a>
+      <li routerLink="/contact-us" class="nav-link tac">
+        <a>Contact Us</a>
       </li>
     </ul>
   </div>

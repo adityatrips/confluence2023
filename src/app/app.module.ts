@@ -11,8 +11,10 @@ import { PaperSubmissionComponent } from './pages/paper-submission/paper-submiss
 import { RegistrationComponent } from './pages/registration/registration.component';
 import { VenueComponent } from './pages/venue/venue.component';
 import { CommitteesComponent } from './pages/committees/committees.component';
+import { SponsorshipComponent } from './pages/sponsorship/sponsorship.component';
+import { ContactComponent } from './pages/contact/contact.component';
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, SpeakersComponent, CallForPaperComponent, PaperSubmissionComponent, RegistrationComponent, VenueComponent, CommitteesComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, SpeakersComponent, CallForPaperComponent, PaperSubmissionComponent, RegistrationComponent, VenueComponent, CommitteesComponent, SponsorshipComponent, ContactComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

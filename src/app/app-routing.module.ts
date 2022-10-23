@@ -1,3 +1,5 @@
+import { ContactComponent } from './pages/contact/contact.component';
+import { SponsorshipComponent } from './pages/sponsorship/sponsorship.component';
 import { CommitteesComponent } from './pages/committees/committees.component';
 import { VenueComponent } from './pages/venue/venue.component';
 import { RegistrationComponent } from './pages/registration/registration.component';
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'registration', component: RegistrationComponent },
   { path: 'venue', component: VenueComponent },
   { path: 'committees', component: CommitteesComponent },
+  { path: 'sponsorship', component: SponsorshipComponent },
+  { path: 'contact-us', component: ContactComponent },
 ];
 
 @NgModule({

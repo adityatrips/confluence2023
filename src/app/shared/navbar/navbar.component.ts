@@ -33,6 +33,13 @@ export class NavbarComponent implements OnDestroy {
     }
   }
 
+  nav(url: string) {
+    window.open(
+      'https://onedrive.live.com/?cid=008e92141623e2c0&id=8E92141623E2C0%21598&ithint=album&authkey=%21AHG7Ene158FBlUE&v=photos',
+      '_blank'
+    );
+  }
+
   interval = window.setInterval(this.checkForScroll, 100);
 
   ngOnDestroy(): void {
