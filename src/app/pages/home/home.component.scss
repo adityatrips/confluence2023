@@ -32,6 +32,14 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .content h1,
+  h4,
+  h5 {
+    text-align: center;
+  }
+}
+
 .scroll-down {
   background-image: url("../../../assets/scrollDown.svg");
   position: absolute;
